@@ -2,7 +2,7 @@ package com.campusdual.methods;
 
 public class Method {
 
-    public static int arithmeticsOperators(){
+    public static int arithmeticOperators(){
 
             int value = 5;                   // 5
             value = value + 3;               // 8
@@ -33,9 +33,23 @@ public class Method {
         System.out.println("uinique false combination for OR: " + (false || false));
         System.out.println("NOT false: " + (!false));
     }
+
+    public static String myCustomMessage(String customName){
+
+        return "Hi " +customName + " this is your custom message";
+    }
+
+
+
     public static void main(String[] args) {
         logicOperators();
-       int  arithResult = arithmeticsOperators();
-        System.out.println("Arithmetic result: " +arithmeticsOperators());
+        int arithResult = arithmeticOperators();
+        System.out.println("Arithmetic result: " + arithmeticOperators());
+        String name = "Gael";
+        String message =myCustomMessage(name);
+        System.out.println(message);
+        System.out.println(myCustomMessage ("Gael Santome"));
+        System.out.println(myCustomMessage (name));
+    }
 }
-}
+
