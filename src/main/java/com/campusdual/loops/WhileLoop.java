@@ -7,7 +7,7 @@ public class WhileLoop {
 
 
     public static void verifyNumbers(){
-        int num = Utils.integer("Write a number greater than 10 and lower than 20: ");
+        int num = Utils.integer("Write a number greater or equal than 10 and lower or equal than 20: ");
         while(num < 10 || num > 20 ){
             num = Utils.integer("Not a valid number, try again ");
         }
