@@ -35,6 +35,6 @@ public class Item {
         this.chechedOut = chechedOut;
     }
     public String getDetails(){
-        return "Title: " + this.tittle + ", Publication date: " + this.publicationDate + " Checked Out" + this.chechedOut;
+        return "Title: " + this.tittle + ", Publication date: " + this.publicationDate + " Checked Out" + this.chechedOut ;
     }
 }
