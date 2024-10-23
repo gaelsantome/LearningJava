@@ -11,8 +11,6 @@ public class AngoraCat extends Cat {
         System.out.println("Meow (In Angora dialect)");
     }
 
-    @Override
-    public void climbing() {
-        System.out.println("Soo cute");
-    }
+
+
 }
